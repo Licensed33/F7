@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 640px) {
   .f7m__notice-bar {
-    font-size: 11px;
+    font-size: 11px !important;
   }
   .f7m__hero {
     padding: 30px 6% 65px 6%;
