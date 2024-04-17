@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f7m__notice-bar {
+  width: 100%;
+  background: #371616;
+  color: #fff3db;
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.f7m__hero {
+  width: 100%;
+  background: black;
+  padding: 45px 23% 70px 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f7m-logo {
+  width: 110px;
+  height: 22px;
+  margin-bottom: 70px;
+}
+
+.f7m__only-logo {
+  width: 145px;
+  height: 145px;
+  margin-bottom: 20px;
+}
+
+.f7m__hero-heading {
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.05px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.f7m__hero-text {
+  color: #ebebeb;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.05px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.f7m__hero-text-mobile {
+  display: none;
+}
+
+.f7m__hero-info {
+  color: #e3d1af;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.05px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .f7m__hero-heading {
+    font-size: 54px;
+  }
+  .f7m__hero-text {
+    font-size: 15px;
+    margin-bottom: 36px;
+  }
+  .f7m__hero {
+    padding: 45px 22% 60px 22%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .f7m__hero {
+    padding: 45px 15% 60px 15%;
+  }
+  .f7m__hero-heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .f7m__notice-bar {
+    font-size: 11px;
+  }
+  .f7m__hero {
+    padding: 30px 6% 65px 6%;
+  }
+  .f7m-logo {
+    margin-bottom: 40px;
+    width: 90px;
+    height: 18px;
+  }
+  .f7m__only-logo {
+    width: 126px;
+    height: 126px;
+    margin-bottom: 35px;
+  }
+  .f7m__hero-heading {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .f7m__hero-text {
+    display: none;
+  }
+  .f7m__hero-text-mobile {
+    display: block;
+    color: #ebebeb;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.05px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .f7m__hero-info {
+    font-size: 15px;
+  }
+}
